@@ -1,8 +1,3 @@
-import java.io.IOException;
-
-import org.apache.http.client.ClientProtocolException;
-import org.json.JSONException;
-
 public class WeatherApp {
 	
 	

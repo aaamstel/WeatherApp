@@ -7,7 +7,6 @@ public class WeatherBit extends WProvider {
 	String name;
 	String key;
 	String url;
-	String url1;
 	
 	public WeatherBit(String name, String url, String key) {
 		super(name, url, key);
@@ -55,7 +54,7 @@ public class WeatherBit extends WProvider {
 		System.out.println("Weather in: " + city_name + " " + ccode +" "+ apptemp + " Celsius by " + this.getName());
 	
 		}
-	@Override
+
 	public String getConnection() {
 		
 		String ur;
@@ -81,7 +80,7 @@ public class WeatherBit extends WProvider {
 		urdata += city + "&key=" + gd_key;		
 		return urdata;
 	}
-	@Override
+
 	public String getData(String lat, String lon) {
 		
 		String urdata;
